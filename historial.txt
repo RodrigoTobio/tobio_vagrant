@@ -1,0 +1,160 @@
+    1  ls
+    2  cd tobio_vagrant/
+    3  ls
+    4  git status
+    5  git push -u origin master
+    6  git push -u origin main
+    7  vagrant halt
+    8  exit
+    9  git status
+   10  lsd
+   11  ls
+   12  cd tobio_vagrant
+   13  ls
+   14  git status
+   15  git push
+   16  ls
+   17  cd tobio_vagrant/
+   18  ls
+   19  git status
+   20  git push
+   21  git add.
+   22  git add .
+   23  git status
+   24  git commit -m "primer commit"
+   25  git push
+   26  exit
+   27  ls
+   28  ls-la
+   29  ls -la
+   30  ssh-keygen -t ed25519
+   31  ls
+   32  ls -la
+   33  cd ssh
+   34  cd .ssh
+   35  ls
+   36  cat id_ed25519.pub
+   37  cd ..
+   38  ls
+   39  cd repogit/
+   40  ls
+   41  git clone https://github.com/RodrigoTobioUTN/tobio_vagrant
+   42  ls
+   43  cd tobio_vagrant/
+   44  ls
+   45  ls -la
+   46  cd ..
+   47  ls
+   48  rm -rf tobio_vagrant
+   49  ls
+   50  git clone git@github.com:RodrigoTobioUTN/tobio_vagrant.git
+   51  ls
+   52  cd tobio_vagrant/
+   53  ls
+   54  git status
+   55  history > historial.txt
+   56  git status
+   57  git add .
+   58  git status
+   59  git commit -m 'Cambios al historial'
+   60  git status
+   61  git push
+   62  cd ..
+   63  ls
+   64  cd ..
+   65  ls
+   66  rm -r tobio_vagrant/
+   67  ls
+   68  cd repogit
+   69  ls
+   70  cd ..
+   71  ls
+   72  echo "hola" > archivo1.txt
+   73  ls
+   74  cat archivo1.txt 
+   75  sl
+   76  ls
+   77  echo "chau" >> archivo1.txt
+   78  cat archivo1.txt 
+   79  cat << FIN > archivo2.txt
+   80  linea 1
+   81  linea 2
+   82  linea 3
+   83  FIN
+   84  ls
+   85  cat archivo2.txt 
+   86  ls
+   87  cat << FIN > archivo3.txt
+   88  linea 4
+   89  linea 5
+   90  linea 6
+   91  FIN
+   92  ls
+   93  cat archivo2.txt archivo3.txt > archivo4.txt
+   94  cat archivo4.txt
+   95  ls
+   96  clear
+   97  cat archivo4.txt | head -n2
+   98  cat archivo4.txt | tail -n2
+   99  cat archivo4.txt | grep linea
+  100  cat archivo4.txt | grep 3
+  101  cat archivo4.txt | grep -n 3
+  102  cat /proc/cpuinfo | grep proce
+  103  cat /proc/cpuinfo | grep model
+  104  cat /proc/cpuinfo | grep MODEL
+  105  cat /proc/cpuinfo | grep -i MODEL
+  106  clear
+  107  cat /proc/cpuinfo | grep -i MODEL | grep name
+  108  cat /proc/cpuinfo | grep -i -n MODEL
+  109  cat /proc/cpuinfo | grep -i -n MODEL | grep name
+  110  man grep
+  111  history
+  112  cat /proc/cpuinfo | grep model
+  113  clear
+  114  cat /ect/passwd
+  115  cat /etc/passwd
+  116  cat /ect/passwd | sort
+  117  cat /etc/passwd | sort
+  118  clear
+  119  cat /etc/passwd | sort
+  120  clear
+  121  cat /etc/shadow
+  122  sudo cat /etc/shadow
+  123  pwd
+  124  clear
+  125  pwd
+  126  cd repogit
+  127  ls
+  128  pwd
+  129  whoami
+  130  echo "usuario=$(whoami)"
+  131  exit
+  132  ls
+  133  cd repogit/
+  134  ls
+  135  tobio_vagrant/
+  136  ls
+  137  cd ..
+  138  rm -r tobio_vagrant/
+  139  rm -rf tobio_vagrant/
+  140  ls
+  141  cd tobio_vagrant
+  142  mkdir tobio_vagrant
+  143  ls
+  144  cd tobio_vagrant/
+  145  git clone git@github.com:RodrigoTobio/tobio_vagrant.git
+  146  ls
+  147  cd ..
+  148  ls
+  149  rm -rf tobio_vagrant/
+  150  git clone git@github.com:RodrigoTobio/tobio_vagrant.git
+  151  ls
+  152  rm -rf tobio_vagrant/
+  153  cd repogit
+  154  ls
+  155  rm -rf tobio_vagrant/
+  156  git clone git@github.com:RodrigoTobio/tobio_vagrant.git
+  157  ls
+  158  cd tobio_vagrant/
+  159  ls
+  160  history > historial.txt
